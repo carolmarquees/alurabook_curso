@@ -1,0 +1,133 @@
+.carrossel__titulo {
+    color: var(--headline);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: var(--white);
+    padding: 1em 0 .5em;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0em;
+}
+
+.card {
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0.8em;
+    padding: 0.8em;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.descricao__titulo {
+    color: var(--headline);
+    font-size: 1rem;
+    font-family: var(--main-font);
+    font-weight: 700;
+
+}
+
+.descricao__titulo-livro {
+    color: var(--blue);
+    font-size: 1.2rem;
+    font-family: var(--main-font);
+    font-weight: 700;
+    margin: 0.5em 0em;
+    line-height: 24px;
+}
+
+.descricao__texto {
+    color: var (--text);
+    font-size: .9rem;
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.botoes__itens {
+    margin: 0 0.1em;
+}
+
+.botoes__ancora {
+    background: var(--headline);
+    padding: .9em 2.2em;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card_autor {
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 0.8em;
+    padding: 0.8em;
+}
+
+.card-img-est {
+    margin-top: .5em;
+    margin-left: 1.5em;
+}
+
+.card_descricao-autor {
+    margin-right: 1em;
+}
+
+.descricao__titulo-autor {
+    color: var(--blue);
+    font-size: 1.1rem;
+    font-family: var(--main-font);
+    font-weight: 700;
+    margin: 0.5em 0em;
+    line-height: 1.5em;
+}
+
+.card__img-autor {
+    width: 161px;
+    height: 166px;
+    margin-bottom: .5em;
+}
+
+.botoes__autor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes__itens-autor {
+    display: flex;
+}
+
+.botoes__ancora-autor {
+    background: var(--headline);
+    padding: 1em 2.2em;
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+}
