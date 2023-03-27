@@ -7,12 +7,16 @@
 
 :root {
     --background-color: #EBECEE;
+    --background-sec-color: #F9F9F9;
     --white: #FFFFFF;
     --headline: #EB9B00;
     --blue: #002F52;
     --text: #000000;
+    --grey: #858585;
+    --grey-text: #474646;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --main-font: 'Poppins', sans-serif;
+    --sec-font: 'Josefin Sans', sans-serif;
 }
 
 body {

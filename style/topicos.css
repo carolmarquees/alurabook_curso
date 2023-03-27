@@ -31,3 +31,34 @@
     text-decoration: none;
     
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos {
+        padding: 2em 2em;
+    }
+
+    .topicos__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 2em;
+    }
+
+    .topicos__lista {
+        display: flex;
+        gap: 2em;
+    }
+
+    .topicos__item {
+        margin: 1.3em 0em;
+    }
+
+    .topicos__link {
+        font-size: 1.5rem;
+    }
+   
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 20vw;
+    }    
+}
